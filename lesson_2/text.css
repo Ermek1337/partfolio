@@ -1,0 +1,24 @@
+html {
+  font-family: 'Playfair', serif;
+}
+
+.title {
+  /* Выравнивает по горизонтали, работает только для блочных элементов */
+  text-align: center;
+}
+
+.simple-text {
+  /* Делает наш текст жирным */
+  font-weight: bolder;
+  /* Декорирует текст, добавляя подчеркивание */
+  text-decoration: line-through;
+  /* Изменяет регистр текста */
+  text-transform: uppercase;
+  /* Добавляет тени к тексту */
+  text-shadow: -1px 16px 9px rgba(160, 44, 206, 0.85);
+}
+
+.text-p {
+  /* Абзац */
+  text-indent: 100px;
+}
